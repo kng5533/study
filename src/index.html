@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>ログイン画面</title>
+</head>
+
+<body>
+  <div class="login-container">
+    <h2>ログイン</h2>
+    <form id="loginForm">
+      <label for="userid">ユーザーID</label>
+      <input type="text" id="userid" name="userid" required>
+
+      <label for="password">パスワード</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">ログイン</button>
+      <p id="errorMsg" class="error"></p>
+    </form>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
