@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/accounting.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="year-badge">
+        <div class="arrow-up"></div>
+        <div class="year-num">2026</div>
+        <div class="arrow-down"></div>
+      </div>
+      <div class="header-messages">
+        <span class="msg-success">CSVをアップロードしました</span>
+        <span class="msg-warning">分類できない仕訳が〇件ありました。</span>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-item">新しい仕訳の追加</div>
+      <div class="sidebar-item">CSVをインポート</div>
+      <div class="sidebar-item">損益計算書のPDF</div>
+      <div class="sidebar-item">貸借対照表のPDF</div>
+    </aside>
+
+    <!-- Main -->
+    <main id="main" class="main">
+
+      <!-- Unclassified Entry -->
+      <div class="entry-card">
+        <div class="entry-header">
+          <span class="warn-icon">⚠</span>
+          <span class="entry-id warning">01-01</span>
+          <span class="entry-label">手動で修正してください</span>
+          <span class="entry-note">※未分類の場合</span>
+        </div>
+        <div class="entry-body">
+          <div class="debit-side"></div>
+          <div class="credit-side"></div>
+        </div>
+      </div>
+
+      <!-- Entry 01-01 ガソリン費 -->
+      <div class="entry-card">
+        <div class="entry-header normal">
+          <span class="entry-id">01-01</span>
+          <span class="entry-label">ガソリン費</span>
+        </div>
+        <div class="entry-body">
+          <div class="debit-side">
+            <div class="entry-row">
+              <span class="account-name">旅費交通費</span>
+              <span class="amount">5,000円</span>
+            </div>
+            <div class="entry-row">
+              <span class="account-name">仮払消費税</span>
+              <span class="amount sub">500円</span>
+            </div>
+          </div>
+          <div class="credit-side">
+            <div class="entry-row">
+              <span class="account-name">普通預金</span>
+              <span class="amount">5,500円</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entry 01-03 ガソリン費 -->
+      <div class="entry-card">
+        <div class="entry-header normal">
+          <span class="entry-id">01-03</span>
+          <span class="entry-label">ガソリン費</span>
+        </div>
+        <div class="entry-body">
+          <div class="debit-side">
+            <div class="entry-row">
+              <span class="account-name">旅費交通費</span>
+              <span class="amount">5,000円</span>
+            </div>
+            <div class="entry-row">
+              <span class="account-name">仮払消費税</span>
+              <span class="amount sub">500円</span>
+            </div>
+          </div>
+          <div class="credit-side">
+            <div class="entry-row">
+              <span class="account-name">普通預金</span>
+              <span class="amount">5,500円</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entry 01-05 ガソリン費 -->
+      <div class="entry-card">
+        <div class="entry-header normal">
+          <span class="entry-id">01-05</span>
+          <span class="entry-label">ガソリン費</span>
+        </div>
+        <div class="entry-body">
+          <div class="debit-side">
+            <div class="entry-row">
+              <span class="account-name">旅費交通費</span>
+              <span class="amount">5,000円</span>
+            </div>
+            <div class="entry-row">
+              <span class="account-name">仮払消費税</span>
+              <span class="amount sub">500円</span>
+            </div>
+          </div>
+          <div class="credit-side">
+            <div class="entry-row">
+              <span class="account-name">普通預金</span>
+              <span class="amount">5,500円</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Entry Form -->
+      <form id="form" class="new-entry-card">
+        <div class="form-header">
+          <div class="form-cell">
+            <input class="form-input" type="date" placeholder="日付">
+          </div>
+          <div class="form-cell">
+            <input class="form-input" type="text" placeholder="摘要">
+          </div>
+        </div>
+        <div id="journal-wrap">
+          <div class="journal form-input-row">
+            <input class="form-input" type="text" placeholder="勘定科目（借方）">
+            <input class="form-input" type="number" placeholder="金額" min="0">
+            <div style="flex:1; border-right: 1px solid var(--border-light);"></div>
+            <input class="form-input" type="text" placeholder="勘定科目（貸方）">
+            <input class="form-input" type="number" placeholder="金額" min="0">
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="button" id="add-journal" class="btn-add">+</button>
+          <button type="submit" class="btn-register">登録</button>
+        </div>
+      </form>
+
+    </main>
+
+    <!-- Right Panel -->
+    <aside class="panel">
+      <div class="panel-title">勘定科目</div>
+      <div class="account-grid">
+        <span class="account-tag">旅費交通費</span>
+        <span class="account-tag">現金</span>
+        <span class="account-tag">普通預金</span>
+        <span class="account-tag">売上</span>
+        <span class="account-tag">通信費</span>
+        <span class="account-tag">水道光熱費</span>
+        <span class="account-tag">修繕費</span>
+        <span class="account-tag">消耗品費</span>
+        <span class="account-tag">仮払消費税</span>
+        <span class="account-tag">仮受消費税</span>
+      </div>
+    </aside>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

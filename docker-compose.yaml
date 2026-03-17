@@ -2,13 +2,13 @@ services:
 
   app:
     build:
-        context: ./docs
+        context: ./docker
         dockerfile: dockerfile
     container_name: dev_php
     ports:
       - "8080:80"
     volumes:
-      - ./src:/var/www/html
+      - ./src/accountingApp:/var/www/html
       - ./docker/php.ini:/usr/local/etc/php/php.ini
     depends_on:
       db:
@@ -21,14 +21,12 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: accounting_db
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
     volumes:
       - db_data:/var/lib/mysql
     ports:
       - "3306:3306"
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "db", "-u", "root", "-proot"]
+      test: ["CMD", "mysqladmin", "ping", "-uroot", "-proot"]
       interval: 5s
       timeout: 10s
       retries: 5
