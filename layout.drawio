@@ -1,0 +1,130 @@
+<mxfile host="65bd71144e">
+    <diagram id="I2bnwLulkX8PSUfaNRRR" name="ページ1">
+        <mxGraphModel dx="1371" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="80" width="420" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ログイン画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry y="43" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="200" width="320" height="26.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="ログインID" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="170" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="305" width="320" height="26.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="パスワード" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="275" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ログイン" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="390" width="110" height="46.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="80" width="960" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="740" y="140" width="541" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="　2026-01-01　ガソリン費" style="whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="21">
+                    <mxGeometry width="541" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="普通預金　5,500円" style="whiteSpace=wrap;html=1;fontSize=18;align=right;horizontal=1;verticalAlign=top;" vertex="1" parent="21">
+                    <mxGeometry x="270" y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="旅費交通費　5,000円&lt;div&gt;仮払消費税　500円&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=18;verticalAlign=top;" vertex="1" parent="21">
+                    <mxGeometry y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="740" y="260" width="541" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="　2026-01-03　ガソリン費" style="whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="22">
+                    <mxGeometry width="541" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="普通預金　5,500円" style="whiteSpace=wrap;html=1;fontSize=18;align=right;horizontal=1;verticalAlign=top;" vertex="1" parent="22">
+                    <mxGeometry x="270" y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="旅費交通費　5,000円&lt;div&gt;仮払消費税　500円&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=18;verticalAlign=top;" vertex="1" parent="22">
+                    <mxGeometry y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="740" y="380" width="541" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="　2026-01-05　ガソリン費" style="whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="26">
+                    <mxGeometry width="541" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="普通預金　5,500円" style="whiteSpace=wrap;html=1;fontSize=18;align=right;horizontal=1;verticalAlign=top;" vertex="1" parent="26">
+                    <mxGeometry x="270" y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="旅費交通費　5,000円&lt;div&gt;仮払消費税　500円&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=18;verticalAlign=top;" vertex="1" parent="26">
+                    <mxGeometry y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="80" width="200" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="損益計算書のPDF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="210" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="貸借対照表のPDF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="260" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="新しい仕訳の追加" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="110" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="740" y="500" width="541" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=18;verticalAlign=top;" vertex="1" parent="37">
+                    <mxGeometry y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="＋" style="text;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="37">
+                    <mxGeometry y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="＋" style="text;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="37">
+                    <mxGeometry x="500" y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="group" vertex="1" connectable="0" parent="37">
+                    <mxGeometry width="541" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="whiteSpace=wrap;html=1;fontSize=18;align=right;horizontal=1;verticalAlign=top;" vertex="1" parent="61">
+                    <mxGeometry x="270" y="40" width="271" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="金額" style="whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry x="420" y="50" width="110" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="勘定科目" style="whiteSpace=wrap;html=1;" vertex="1" parent="61">
+                    <mxGeometry x="290" y="50" width="110" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="group" vertex="1" connectable="0" parent="61">
+                    <mxGeometry width="541" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="　2026-01-05　ガソリン費" style="whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="62">
+                    <mxGeometry width="541" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="日付" style="whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="10" y="10" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="摘要" style="whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="110" y="10" width="410" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="勘定科目" style="whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="10" y="50" width="110" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="金額" style="whiteSpace=wrap;html=1;" vertex="1" parent="62">
+                    <mxGeometry x="150" y="50" width="110" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="＋" style="text;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="61">
+                    <mxGeometry x="500" y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="CSVをインポート" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="160" width="170" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
